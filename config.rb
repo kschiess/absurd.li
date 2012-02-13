@@ -1,31 +1,3 @@
-### 
-# Compass
-###
-
-# Susy grids in Compass
-# First: gem install compass-susy-plugin
-# require 'susy'
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
-
-###
-# Haml
-###
-
-# CodeRay syntax highlighting in Haml
-# First: gem install haml-coderay
-# require 'haml-coderay'
-
-# CoffeeScript filters in Haml
-# First: gem install coffee-filter
-# require 'coffee-filter'
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-
 ###
 # Page command
 ###
@@ -67,6 +39,19 @@
 
 # Change the images directory
 # set :images_dir, "alternative_image_directory"
+
+# A small hack that is needed to have textile ignore line breaks. This 
+# allows me to still format things nicely for an editor and get html paragraphs
+# at the same time. 
+#
+class NBRedClothTemplate < Tilt::RedClothTemplate
+  def prepare
+    super
+    @engine.hard_breaks = false
+  end
+end
+Tilt.register NBRedClothTemplate, 'textile'
+Tilt.prefer NBRedClothTemplate
 
 # Build-specific configuration
 configure :build do

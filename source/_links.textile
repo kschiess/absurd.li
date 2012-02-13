@@ -1,0 +1,3 @@
+"blog":http://blog.absurd.li | 
+"code":http://github.com/kschiess | 
+"tumblr":http://tumble.absurd.li
