@@ -53,6 +53,8 @@ end
 Tilt.register NBRedClothTemplate, 'textile'
 Tilt.prefer NBRedClothTemplate
 
+Slim::Engine.set_default_options :pretty => true
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
