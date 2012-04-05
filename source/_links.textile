@@ -1,4 +1,4 @@
-<!-- CEO and co-founder of "Technology Astronauts":http://technologyastronauts.ch -->
+CEO and co-founder of "Technology Astronauts":http://technologyastronauts.ch
 
 "blog":http://blog.absurd.li | 
 "code":http://github.com/kschiess | 
