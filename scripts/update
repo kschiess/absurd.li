@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+rsync -av --delete build/ absurd.li:absurd.li/build/
