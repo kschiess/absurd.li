@@ -1,10 +1,7 @@
-CTO of "Pryv":http://pryv.com/
+Lead QA Engineer at "Unblu Inc.":https://www.unblu.com/
 
-CEO and co-founder of "Technology Astronauts":http://technologyastronauts.ch
-
-"twitter":https://twitter.com/kasparschiess |
-"github":http://github.com/kschiess | 
 "bitbucket":http://bitbucket.org/kschiess | 
+"github":http://github.com/kschiess | 
 "tumblr":http://tumble.absurd.li
 
-catch me on irc: kschiess on freenode
+*... this is more of a glass too full situation ...*
