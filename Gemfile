@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "middleman", "4"
+gem "middleman"
 
 gem 'rb-fsevent'
 gem 'guard-livereload'
